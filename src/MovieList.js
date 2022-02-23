@@ -13,9 +13,9 @@ const TitleList = (props) => {
         <div
           key={x.id}
           style={{ borderRadius: '15px',
-          width: '100px',
+          width: '400px',
           margin: '10px',
-            backgroundColor: "white",
+            backgroundColor: "grey",
             cursor: "crosshair",
             textDecoration: x.read ? "line-through" : "",
            
@@ -77,6 +77,7 @@ const TitleList = (props) => {
         alignItems: "center",
         padding: "10px",
         margin: '10px',
+      
        
       }}>{renderTitles()}</div>
     </div>
